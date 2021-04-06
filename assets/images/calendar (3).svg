@@ -1,0 +1,18 @@
+<svg id="calendar_3_" data-name="calendar (3)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00c0ff"/>
+      <stop offset="1" stop-color="#5558ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_26093" data-name="Grupo 26093">
+    <g id="Grupo_26092" data-name="Grupo 26092">
+      <path id="Trazado_15028" data-name="Trazado 15028" d="M30.6,3.4H28.9V1.7a1.7,1.7,0,1,0-3.4,0V3.4H8.5V1.7A1.606,1.606,0,0,0,6.8,0,1.606,1.606,0,0,0,5.1,1.7V3.4H1.7A1.7,1.7,0,0,0,0,5.1V28.9a1.7,1.7,0,0,0,1.7,1.7H12.07A13.532,13.532,0,0,1,32.3,13.26V5.1A1.828,1.828,0,0,0,30.6,3.4Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Grupo_26095" data-name="Grupo 26095" transform="translate(13.6 13.6)">
+    <g id="Grupo_26094" data-name="Grupo 26094">
+      <path id="Trazado_15029" data-name="Trazado 15029" d="M215,204.8A10.2,10.2,0,1,0,225.2,215,10.23,10.23,0,0,0,215,204.8Zm3.4,11.9H215a1.606,1.606,0,0,1-1.7-1.7v-5.1a1.7,1.7,0,1,1,3.4,0v3.4h1.7a1.7,1.7,0,0,1,0,3.4Z" transform="translate(-204.8 -204.8)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

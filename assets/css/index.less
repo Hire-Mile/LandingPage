@@ -1,0 +1,220 @@
+@import "config.less";
+
+#root {
+	background-color: @background-blue;
+}
+
+#header {
+	padding: 25px 0;
+	
+	background-image: url(../images/principal-img@3x.png);
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-position-y: 25px;
+	
+	#header-logo-container {
+		color: @logo-blue;
+		font-weight: 600;
+		font-size: 2rem;
+	}
+	
+	.navbar {
+		.nav-link--header {
+			display: block;
+			position: relative;
+			outline: none;
+			
+			border: none;
+			font-size: 1rem;
+			font-weight: 500;
+				
+			&.nav-link--background {
+				color: @button-text-white;
+				background: @button-black;
+				border-radius: 1rem;
+				transition: background 0.3s;
+				padding: 0.3rem 2rem;
+				
+				&:hover {
+					background: @button-blue;
+				}
+			}
+			
+			&.nav-link--underline {
+				color: @link-black;
+				border-radius: 0;
+				background: none;
+				padding: 0.3rem 0.5rem;
+				
+				&::after {
+					bottom: 0;
+					content: "";
+					display: block;
+					height: 2px;
+					left: 50%;
+					position: absolute;
+					background: @text-underline-blue;
+					transition: width 0.3s ease 0s, left 0.3s ease 0s;
+					width: 0;
+				}
+			}
+			
+			&.nav-link--underline:hover {
+				color: @link-blue;
+				
+				&::after {
+					width: 100%;
+					left: 0;
+				}
+			}
+		}
+	}
+}
+
+#main {
+	section {
+		.section-image {
+			img {
+				width: 100%;
+			}
+		}
+		
+		.section-content {
+			h3 {
+				font-weight: 400;
+			}
+			
+			h6 {
+				font-weight: 300;
+				color: @text-gray;
+			}
+			
+			hr {
+				width: 20%;
+				height: 0.3rem;
+				background-color: @text-underline-blue;
+			}
+			
+			ul.section-content-list {
+				list-style-type: none;
+				padding: 2rem 0;
+				
+				li {
+					font-size: 1rem;
+					font-weight: 300;
+					padding: 0.8rem 0;	
+					
+					img {
+						padding-right: 1rem;
+					}
+				}
+			}
+			
+			ul.section-content-list--horizontal {
+				list-style-type: none;
+				padding: 2rem 0;
+				display: flex;
+				flex-wrap: wrap;
+				
+				li {
+					font-size: 1rem;
+					font-weight: 300;
+					padding: 0.8rem 0;	
+					width: 33.3%;
+					
+					img {
+						padding-right: 1rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+#footer {
+	background: @footer-background-blue;
+	color: @text-white;
+	
+	h4 {
+		font-weight: 400;
+	}
+	
+	h6 {
+		font-weight: 300;
+	}
+	
+	nav {
+		font-weight: 300;
+	}
+}
+
+#subscribe-form {
+	background: @gradient-background-blue;
+	border-radius: 3rem;
+	
+	input {
+		background: @input-white;
+		border-radius: 1rem 0 0 1rem;
+		border: none;
+		outline: none;
+		flex: 5;
+	}
+	
+	button {
+		background: @button-dark-blue;
+		border-radius: 0 1rem 1rem 0;
+		border: none;
+		outline: none;
+		flex: 2;
+		color: @button-text-white;
+	}
+}
+
+.button-secondary {
+	width: auto;
+	max-width: 180px;
+	background: @button-black;
+	border-radius: 1rem;
+	font-weight: 500;
+	color: @button-text-white;
+	padding: 0.4rem 0.8rem;
+	font-size: 0.8rem;
+	transition: background 0.3s;
+	
+	&:hover {
+		background: @button-blue;
+		color: @button-text-white;
+	}
+}
+
+.button-secondary--bigger {
+	.button-secondary();
+	font-size: 1rem;
+}
+
+.box {
+	display: flex;
+	height: 200px;
+	flex-direction: row;
+	border-radius: 2rem;
+	margin: 2rem 4rem;
+	padding: 2rem;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+	
+	&.box--lime {
+		background: @background-lime;
+	}
+	
+	&.box--aero {
+		background: @background-aero;
+	}
+	
+	.box-image {
+		height: 230px;
+		bottom: calc(2rem + 30px);
+		left: -3rem;
+		position: relative;
+	}
+	
+}

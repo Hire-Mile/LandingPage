@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00c0ff"/>
+      <stop offset="1" stop-color="#5558ff"/>
+    </linearGradient>
+  </defs>
+  <g id="filter_2_" data-name="filter (2)" transform="translate(0)">
+    <path id="Trazado_15030" data-name="Trazado 15030" d="M28.714,0H6.286A6.293,6.293,0,0,0,0,6.286V28.714A6.293,6.293,0,0,0,6.286,35H28.714A6.293,6.293,0,0,0,35,28.714V6.286A6.293,6.293,0,0,0,28.714,0Zm.865,27.314H18.361a3.229,3.229,0,0,1-6.115,0H5.422a1.029,1.029,0,0,1,0-2.059h6.825a3.229,3.229,0,0,1,6.115,0H29.578A1.029,1.029,0,0,1,29.578,27.314Zm0-8.784H27.146a3.229,3.229,0,0,1-6.115,0H5.422a1.029,1.029,0,0,1,0-2.059H21.031a3.229,3.229,0,0,1,6.115,0h2.433A1.029,1.029,0,0,1,29.578,18.529Zm0-8.784H13.969a3.229,3.229,0,0,1-6.115,0H5.422a1.029,1.029,0,0,1,0-2.059H7.854a3.229,3.229,0,0,1,6.115,0H29.578a1.029,1.029,0,0,1,0,2.059Z" fill="url(#linear-gradient)"/>
+    <path id="Trazado_15031" data-name="Trazado 15031" d="M208.1,367.435a1.167,1.167,0,0,0,0,2.333A1.167,1.167,0,0,0,208.1,367.435Z" transform="translate(-192.797 -342.317)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_15032" data-name="Trazado 15032" d="M143.85,110.431a1.167,1.167,0,0,0,0,2.333A1.167,1.167,0,0,0,143.85,110.431Z" transform="translate(-132.938 -102.882)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_15033" data-name="Trazado 15033" d="M336.6,238.933a1.167,1.167,0,0,0,0,2.333A1.167,1.167,0,0,0,336.6,238.933Z" transform="translate(-312.514 -222.6)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
